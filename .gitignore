@@ -2,3 +2,10 @@
 src/xlxd
 ambed/ambed
 ambedtest/ambedtest
+# editor debris
+*~
+.#*
+._*
+.*.sw?
+# OS X debris
+**/.DS_Store

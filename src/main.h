@@ -63,7 +63,7 @@
 
 // reflector ---------------------------------------------------
 
-#define NB_OF_MODULES                   10
+#define NB_OF_MODULES                   12
 //#define NB_OF_MODULES                   NB_MODULES_MAX
 
 // protocols ---------------------------------------------------
@@ -120,10 +120,10 @@
 #define YSF_PORT                        42000                               // UDP port
 #define YSF_KEEPALIVE_PERIOD            3                                   // in seconds
 #define YSF_KEEPALIVE_TIMEOUT           (YSF_KEEPALIVE_PERIOD*10)           // in seconds
-#define YSF_DEFAULT_NODE_TX_FREQ        437000000                           // in Hz
-#define YSF_DEFAULT_NODE_RX_FREQ        437000000                           // in Hz
-#define YSF_AUTOLINK_ENABLE             0                                   // 1 = enable, 0 = disable auto-link
-#define YSF_AUTOLINK_MODULE             'B'                                 // module for client to auto-link to
+#define YSF_DEFAULT_NODE_TX_FREQ        430710000                           // in Hz
+#define YSF_DEFAULT_NODE_RX_FREQ        430710000                           // in Hz
+#define YSF_AUTOLINK_ENABLE             1                                   // 1 = enable, 0 = disable auto-link
+#define YSF_AUTOLINK_MODULE             'K'                                 // module for client to auto-link to
 
 // G3 Terminal
 #define G3_PRESENCE_PORT                12346                               // UDP port
