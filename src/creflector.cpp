@@ -232,7 +232,7 @@ CPacketStream *CReflector::OpenStream(CDvHeaderPacket *DvHeader, CClient *client
                         stream->Push(DvHeader);
                         
                         // report
-                        std::cout << "Opening stream on module " << module << " for client " << client->GetCallsign()
+                        std::cout << "Opening stream on module " << module << " for: " << stream->GetUserCallsign() << " client " << client->GetCallsign()
                                   << " with sid " << DvHeader->GetStreamId() << std::endl;
                         
                         // notify
